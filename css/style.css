@@ -19,7 +19,7 @@ h1{
     background-color:aqua;
 }
 
-h2{
+.main{
     font-size: 30px;
     text-align: center;
     margin:50px;
@@ -46,9 +46,53 @@ p{
     margin-top:5%;
 }
 
+
+
 footer{
+   height:20px;
+}
+
+.foot1{
     text-align:center;
     color:beige;
     font-size:30px;
-    padding-top:15%;
+    
+    background-color:aqua
+}
+
+.div{
+    background-color:aqua;
+    margin-top:250px;
+    padding-bottom:0px;
+    
+
+}
+
+ a{
+    text-decoration: none;
+
+
+} 
+
+ol li{
+    margin-left: 10%;
+    list-style-type:decimal-leading-zero;
+}
+
+ul li{
+    margin-left:5%;
+    list-style-type:circle
+}
+
+ol li a {
+    color:coral;
+}
+
+ul li a{
+    color:coral;
+}
+
+.h2{
+    margin-left:5%;
+    color:darkgray;
 }
