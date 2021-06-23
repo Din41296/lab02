@@ -3,16 +3,16 @@
 let count = 0;
 let q1 = prompt('Do I like Black color?(yes/no)');
 switch (q1.toLowerCase()) {
-  case 'yes':
-  case 'y':
-    console.log('You\'re right');
-    count++;
-    alert('You\'re right');
-    break;
-  default:
-    console.log('wrong answer');
-    alert('wrong answer');
-    break;
+case 'yes':
+case 'y':
+  console.log('You\'re right');
+  count++;
+  alert('You\'re right');
+  break;
+default:
+  console.log('wrong answer');
+  alert('wrong answer');
+  break;
 
 }
 
@@ -36,21 +36,21 @@ else if (q2 === 'y') {
 
 let q3 = prompt('Do I like healthy food?(YES/NO)').toUpperCase();
 switch (q3) {
-  case 'YES':
-  case 'Y':
-    console.log('Absolutely wrong');
-    alert('Absolutely wrong');
-    break;
-  case 'NO':
-  case 'N':
-    console.log('you\'re right');
-    count++;
-    alert('you\'re right');
-    break;
-  default:
-    console.log('Please next time answer yes/no');
-    alert('Please next time answer yes/no');
-    break;
+case 'YES':
+case 'Y':
+  console.log('Absolutely wrong');
+  alert('Absolutely wrong');
+  break;
+case 'NO':
+case 'N':
+  console.log('you\'re right');
+  count++;
+  alert('you\'re right');
+  break;
+default:
+  console.log('Please next time answer yes/no');
+  alert('Please next time answer yes/no');
+  break;
 }
 
 let q4 = prompt('Do I have a driving license?(YES/NO)').toUpperCase();
@@ -75,21 +75,21 @@ if (q4 === 'YES') {
 
 let q5 = prompt('Do I watch turkish series?(yes/no)').toLowerCase();
 switch (q5) {
-  case 'yes':
-  case 'y':
-    console.log('Right');
-    count++;
-    alert('Right');
-    break;
-  case 'no':
-  case 'n':
-    console.log('Wrong');
-    alert('Wrong');
-    break;
-  default:
-    console.log('Follow the question requirements');
-    alert('Follow the question requirement');
-    break;
+case 'yes':
+case 'y':
+  console.log('Right');
+  count++;
+  alert('Right');
+  break;
+case 'no':
+case 'n':
+  console.log('Wrong');
+  alert('Wrong');
+  break;
+default:
+  console.log('Follow the question requirements');
+  alert('Follow the question requirement');
+  break;
 
 }
 
@@ -146,8 +146,7 @@ alert('Your score is = ' + count + 'of 7');
 
 
 
-
-
+if(cookieCount *= 5);
 
 
 
